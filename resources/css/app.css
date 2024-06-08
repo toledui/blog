@@ -1,0 +1,17 @@
+@import 'common.css';
+@tailwind base;
+@layer base {
+
+    h2 {
+        @apply text-2xl font-bold text-gray-600 mb-4;
+
+    }
+
+};
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] {
+    display: none;
+}
